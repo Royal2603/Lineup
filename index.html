@@ -71,16 +71,7 @@
             />
           </form>
           <!-- MARK: Task Go here -->
-          <div class="form-control px-2 grid gap-1">
-            <label class="label cursor-pointer bg-zinc-300 rounded">
-              <span class="label-text">Completed Task</span>
-              <input type="checkbox" checked />
-            </label>
-            <label class="label cursor-pointer">
-              <span class="label-text">Remember me</span>
-              <input type="checkbox" />
-            </label>
-          </div>
+          <div class="form-control px-2 grid gap-1" data-task-list></div>
         </div>
       </div>
     </main>
@@ -88,7 +79,12 @@
 
     <footer class="footer footer-center bg-base-300 text-base-content p-4">
       <aside>
-        <p>Copyrights free &mdash; <span class="year"> </span></p>
+        <p>
+          Copyrights free &mdash; <span class="year"> </span> .Covered in our
+          <a href="https://cdn.jsdelivr.net/gh/Royal2603/Lineup@main/LICENSE"
+            ><u> MIT License</u></a
+          >
+        </p>
       </aside>
     </footer>
     <script type="module" src="src/main.js"></script>
